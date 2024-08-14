@@ -69,7 +69,7 @@ const Contact = () => {
           <label style={{textAlign:'left'}}>Message</label>
           <textarea name="message" placeholder='Message' required="true" />
 
-          <input className='send_btn' type="submit" value="Send" />
+          <input className='send_btn default-btn' type="submit" value="Send" />
 
         </form>
 

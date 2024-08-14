@@ -25,13 +25,13 @@ function App() {
 
 
       <Navbar/>
-    {/* <div className="container1"> */}
+    <div className="mainContainer">
       <Home/>
       <Experience/>
       <Skills/>
       <Projects/>
       <Contact/>
-   
+     </div>
 
     </>
   )

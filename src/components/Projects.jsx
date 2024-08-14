@@ -6,11 +6,11 @@ const Projects = () => {
     <div>
 
       <div className="container projects my-3" id="projects">
-        <h1 style={{ textAlign: "left" }} data-aos="flip-right" data-aos-duration="1000">PROJECTS</h1>
+        <h1 style={{ textAlign: "left" }} className='project_heading' data-aos="flip-right" data-aos-duration="1000">PROJECTS</h1>
 
         <div className="project">
           {
-            projects.map((project) => (
+            projects.map((project) => ( 
 
               <div key={project.id}  className='project_item' data-aos="flip-right" data-aos-duration="1000">
             
@@ -23,8 +23,8 @@ const Projects = () => {
                       <p className="card_des">{project.description}</p>
                        
                        <div className="card_btns">
-                         <a href={project.demo} className="btn btn-primary">Demo</a>
-                         <a href={project.source} className="btn btn-warning">Code</a>
+                         <a href={project.demo} className="btn default-btn">Demo</a>
+                         <a href={project.source} className="btn btn_warning">Code</a>
 
                        </div>
                     </div>
