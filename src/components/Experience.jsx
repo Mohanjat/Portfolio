@@ -14,7 +14,7 @@ const Experience = () => {
                 <>
                 <div key={data.id} className="exp_items" data-aos="zoom-in" data-aos-duration="1000">
                   <div className="left">
-                    <img src={`/assets/${data.imageSrc}`} alt="" />
+                    <img src={`./assets/${data.imageSrc}`} alt="" />
                   </div>
                   <div className="right">
                     <h2>{data.role}</h2>
